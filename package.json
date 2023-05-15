@@ -1,0 +1,23 @@
+{
+  "name": "coc-reporter",
+  "version": "1.0.0",
+  "description": "Report CoC Violations",
+  "main": "index.js",
+  "repository": "https://github.com/davidgs/coc-reporter",
+  "author": "David G. Simmons",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22"
+  }
+}
